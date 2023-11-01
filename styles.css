@@ -1,11 +1,53 @@
-.grid {
+
+ .grid {
     width: 400px;
     height: 400px;
   }
-  
+  /* Eveline CSS
   .square {
     width: 100px;
     height: 100px;
     border: solid black 1px;
     
-  }
+  } */
+
+  /* Kristy CSS*/
+body {
+    background-color: #c3d1ff;
+    margin: 1;
+    font-family:"calibri";
+}
+h1 {
+  margin: 0 auto;
+  text-align: center;
+  line-height: 2.1;
+  font-weight: normal; 
+  color: black;
+}
+h2 {
+  text-align: center; 
+  line-height: 1.1;
+  font-weight: normal; 
+  color: black
+}
+#container {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ 
+.square {
+    width: 30%;
+    background: blue;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+} 
+
+#grid {        
+  width: 200px;
+  height: 200px;
+  background-color: getRandomColor();
+  display: none;
+  position: relative; 
+}
